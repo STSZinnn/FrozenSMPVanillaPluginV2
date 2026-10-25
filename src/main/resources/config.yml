@@ -1,0 +1,22 @@
+# Edit this file in plugins/PunchSnowball/config.yml on your SERVER.
+# Run /punchreload as OP to apply changes without rebuilding or restarting.
+# This is for changing SETTINGS; Java logic changes still require a new JAR.
+
+snowball:
+  cooldown-seconds: 7
+  slowness-seconds: 2
+  horizontal-velocity: 2.45
+  vertical-velocity: 0.40
+
+tnt:
+  cooldown-seconds: 10
+  fuse-seconds: 3
+  # Maximum block-breaking and player-damage distance in blocks.
+  radius-blocks: 4.0
+  # TNT explosion strength: 4.0 is vanilla TNT, 2.5 is smaller.
+  # Actual block destruction varies by material and surrounding blocks.
+  explosion-power: 2.5
+  break-blocks: true
+  # Minecraft health points: 4.0 = 2 hearts before extra protection effects.
+  # Uses magic damage to bypass armor, including netherite.
+  damage-health-points: 4.0
